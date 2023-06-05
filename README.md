@@ -25,3 +25,9 @@ The program has 3 helper methods:
 
 
 3. synchronize_folders(source_folder, replica_folder, log_file) : This method loops through each file in the source and replica folder to process them and check if any changes have made in the source folder and make the necessary changes in the replica folder along with log details. The path to the sorce, replica and log file have been passed as arguments.
+
+
+# Main function
+
+The main function begins by invoking the helper function, get_args(). Subsequently, it enters a while loop that ensures the folder synchronization occurs at regular intervals as defined by the user.
+
